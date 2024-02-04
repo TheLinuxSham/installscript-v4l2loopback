@@ -7,4 +7,4 @@ pacman -S --noconfirm v4l2loopback-dkms
 cp v4l2loopback.conf /etc/modules-load.d/
 
 # use parameters for module on system start
-cp v412loopback-parameters.conf /etc/modprobe.d/
+cp v4l2loopback-parameters.conf /etc/modprobe.d/
